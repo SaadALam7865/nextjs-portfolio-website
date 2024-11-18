@@ -67,7 +67,7 @@ I’m also diving into frameworks like React and Next.js to enhance my ability t
               }}
             ></div>
             <Image
-              src="/Images/me2.jpg"
+              src="/me2.jpg"
               alt="me"
               width={500}
               height={500}

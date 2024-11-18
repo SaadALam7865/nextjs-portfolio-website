@@ -25,7 +25,7 @@ export default function RootLayout({
             <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
               <div className="avatar">
                 <Image
-                  src="/Images/logo.jpg"
+                  src="/logo.jpg"
                   alt="profile-pic"
                   width={50}
                   height={50}

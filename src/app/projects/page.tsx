@@ -9,14 +9,14 @@ import Link from "next/link";
 const projects = [
 
   {
-    src: "/Images/projects2.png",
+    src: "/projects2.png",
     alt: "Nextjs.15",
     title: "Nextjs 15",
     description: "Stay informed with the latest insights and trends, powered by the fast and modern Next.js 15 framework..",
     link: "https://nextjs.org/blog/next-15"
   },
   {
-    src: "/Images/projects1.png",
+    src: "/projects1.png",
     alt: "Resume-Builder",
     title: "MAK Resume-Builder",
     description: "A dynamic, easy-to-use MAK-resume builder with customizable templates to help professionals create standout resumes effortlessly.",
@@ -24,7 +24,7 @@ const projects = [
   },
  
   {
-    src: "/Images/projects3.jpg",
+    src: "/projects3.jpg",
     alt: "E-commerce Website",
     title: "e-commerce web",
     description: "A fully functional e-commerce website that allows users to browse and purchase products ",
@@ -32,35 +32,35 @@ const projects = [
   },
 
   {
-    src: "/Images/projects4.jpg", // Direct URL from public folder
+    src: "/projects4.jpg", // Direct URL from public folder
     alt: "Shopping website",
     title: "Shopping Website",
     description: "Explore top-quality products handpicked just for you at unbeatable prices on Shopsing!",
     link: "https://shopping-web-app.vercel.app/"
   },
   {
-    src: "/Images/projects5.png", // Direct URL from public folder
+    src: "/projects5.png", // Direct URL from public folder
     alt: "Amazone Clone",
     title: "Amazone Clone-web",
     description: "An Amazon Clone ui A sleek, responsive front-end design that mimics the Amazon shopping experience.",
     link: "https://world-tours-lime.vercel.app"
   },
   {
-    src: "/Images/projects7.png", // Direct URL from public folder
+    src: "/projects7.png", // Direct URL from public folder
     alt: "React Portfolio ",
     title: "React Portfolio",
     description: "A sleek React-based portfolio website showcasing projects, skills, and creativity with interactive design",
     link: "https://react-portfolio-web-evhd.vercel.app/"
   },
   {
-    src: "/Images/projects6.png",     // Direct URL from public folder
+    src: "/projects6.png",     // Direct URL from public folder
     alt: "An Interactive Calculator",
     title: "Interactive Calculator",
     description: "An interactive calculator with dynamic features for seamless arithmetic and functional calculations.",
     link: "https://fronted-developer-projects.vercel.app/"
   },
   {
-    src: "/Images/projects8.png",
+    src: "/projects8.png",
     alt: "Cofe Website",
     title: "Cofee Website",
     description: "A cozy blend of flavors, aroma, and passion—your perfect coffee destination. ☕",
