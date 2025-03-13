@@ -3,11 +3,23 @@
 "use client";
 
 import Image from "next/image";
+import { useEffect } from "react";
 import Link from "next/link";
+import AOS from "aos"
+import 'aos/dist/aos.css';
 import Typewriter from 'typewriter-effect';
 import { FaFacebookF, FaInstagram } from 'react-icons/fa';
 
 const About = () => {
+
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+        
+    });
+  }, []);
+
   return (
     <>
       <section className="text-yellow-400 body-font bg-gradient-to-r from-purple-900 via-black to-gray-900 overflow-hidden">

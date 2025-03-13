@@ -4,11 +4,21 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Image from "next/image";
 import dynamic from "next/dynamic";
 import Link from "next/link";
-
+import { useEffect } from "react";
+import AOS from "aos";
+import 'aos/dist/aos.css';
 
 const Typewriter = dynamic(() => import("typewriter-effect"), { ssr: false });
 
 const Hero = () => {
+
+
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+        
+    });
+  }, []);
   return (
     <section className="text-yellow-400 body-font bg-gradient-to-r from-purple-900 via-black to-gray-900">
       <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
@@ -44,7 +54,7 @@ I’m also diving into frameworks like React and Next.js to enhance my ability t
               </Link>
             </button>
             <button className="ml-4 inline-flex text-white bg-blue-600 border-0 py-2 px-4 focus:outline-none hover:bg-neonYellow text-lg rounded-full shadow-neonYellow animate-bounceSlow transition-all duration-500">
-              <Link href="https://www.linkedin.com/in/saad-alam-5631432b5/">
+              <Link href="">
                 <FaLinkedin size={26} />
               </Link>
             </button>
