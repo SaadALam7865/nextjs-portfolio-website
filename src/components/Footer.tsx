@@ -143,7 +143,7 @@ const Footer = () => {
       </div>
 
       {/* ---------- BOTTOM CREDIT ---------- */}
-      <div data-aos="fade-up" className="border-t border-white/10">
+      <div className="border-t border-white/10">
         <div className="max-w-6xl mx-auto px-6 py-6 flex flex-col items-center justify-between overflow-x-hidden gap-4 md:flex-row">
           <span className="text-sm text-gray-400">
             © {new Date().getFullYear()} All rights reserved.
