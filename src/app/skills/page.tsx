@@ -64,14 +64,14 @@ export default function Skills() {
       <SkillCard
         title="HTML"
         description="HTML is the standard markup language for creating web pages. It provides the basic structure for web documents and helps in defining the content and structure of a web page."
-        colorClass="bg-orange-500 hover:bg-orange-600 transition duration-300 ease-in-out"
+        colorClass="bg-orange-500 hover:bg-orange-600 hover:shadow-lg hover:shadow-white/20  transition duration-300 ease-in-out"
         svgIcon={<FaHtml5 size={80} className="bg-red-700 rounded-full animate-pulse" />}
         dataAos="fade-up"
       />
       <SkillCard
         title="CSS"
         description="CSS is used to style and layout web pages. It controls the look and feel of the web pages, including the design, colors, fonts, and spacing, making them visually appealing."
-        colorClass="bg-blue-500 hover:bg-indigo-600 transition duration-300 ease-in-out"
+        colorClass="bg-blue-500  hover:shadow-white/20   hover:bg-indigo-600   transition duration-300 ease-in-out"
         svgIcon={<FaCss3Alt size={80} className="bg-pink-300 rounded-full animate-spin" />}
         dataAos="fade-left"
         dataAosDelay="100"
@@ -79,7 +79,7 @@ export default function Skills() {
       <SkillCard
         title="Tailwind CSS"
         description="Tailwind CSS is a utility-first CSS framework that allows for rapid design and customization of web pages without writing custom CSS. It promotes consistency and efficiency in styling."
-        colorClass="bg-teal-500 hover:bg-cyan-600 transition duration-300 ease-in-out"
+        colorClass="bg-teal-500  hover:shadow-white/20    hover:bg-cyan-600 transition duration-300 ease-in-out"
         svgIcon={<SiTailwindcss size={80} className="bg-lime-400 rounded-full animate-bounce" />}
         dataAos="fade-right"
         dataAosDelay="200"
@@ -87,7 +87,7 @@ export default function Skills() {
       <SkillCard
         title="JavaScript"
         description="JavaScript is a versatile scripting language that enables interactive web features. It is used to create dynamic content, control multimedia, and handle events on web pages."
-        colorClass="bg-yellow-400 hover:bg-amber-500 transition duration-300 ease-in-out"
+        colorClass="bg-yellow-400  hover:shadow-white/20  hover:bg-amber-500 transition duration-300 ease-in-out"
         svgIcon={<FaJsSquare size={80} className="bg-purple-500 rounded-full animate-pulse" />}
         dataAos="zoom-in"
         dataAosDelay="300"
@@ -95,7 +95,7 @@ export default function Skills() {
       <SkillCard
         title="TypeScript"
         description="TypeScript is a typed superset of JavaScript that compiles to plain JavaScript. It adds static typing to JavaScript, which improves code quality and development experience."
-        colorClass="bg-blue-700 hover:bg-blue-800 transition duration-300 ease-in-out"
+        colorClass="bg-blue-700  hover:shadow-white/20  hover:bg-blue-800 transition duration-300 ease-in-out"
         svgIcon={<SiTypescript size={80} className="bg-pink-700 rounded-full animate-spin" />}
         dataAos="flip-left"
         dataAosDelay="400"
@@ -103,7 +103,7 @@ export default function Skills() {
       <SkillCard
         title="React.js"
         description="React.js is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and manage application state efficiently."
-        colorClass="bg-cyan-300 hover:bg-sky-300 transition duration-300 ease-in-out"
+        colorClass="bg-cyan-300  hover:shadow-white/20  hover:bg-sky-300 transition duration-300 ease-in-out"
         svgIcon={<FaReact size={80} className="bg-purple-400 rounded-full animate-bounce" />}
         dataAos="flip-right"
         dataAosDelay="500"
@@ -111,15 +111,15 @@ export default function Skills() {
       <SkillCard
         title="Next.js"
         description="Next.js is a React framework that provides server-side rendering and static site generation capabilities. It helps in building optimized, fast, and scalable web applications."
-        colorClass="bg-gray-600 hover:bg-slate-900 transition duration-300 ease-in-out"
+        colorClass="bg-gray-600  hover:shadow-white/20  hover:bg-slate-900 transition duration-300 ease-in-out"
         svgIcon={<SiNextdotjs size={80} className="bg-black rounded-full animate-pulse" />}
         dataAos="slide-up"
         dataAosDelay="600"
       />
       <SkillCard
         title="Node.js"
-        description="Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allows for server-side scripting and building scalable network applications using JavaScript."
-        colorClass="bg-emerald-600 hover:bg-lime-600 transition duration-300 ease-in-out"
+        description="Node.js  is a JavaScript runtime built on Chrome's V8 JavaScript engine. It allows for server-side scripting and building scalable network applications using JavaScript."
+        colorClass="bg-emerald-600  hover:shadow-white/20  hover:bg-lime-600 transition duration-300 ease-in-out"
         svgIcon={<FaNodeJs size={80} className="bg-green-900 rounded-full animate-spin" />}
         dataAos="slide-down"
         dataAosDelay="700"

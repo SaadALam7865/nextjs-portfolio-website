@@ -4,6 +4,7 @@
 
 body {
     background-color: black;
-         color: #fff;  
-         overflow-x: hidden;           /*Ensure text is readable on the dark background */
+     color: #fff;  
+     overflow-x: hidden; /*Ensure text is readable on the dark background */
+               
     }
